@@ -1,0 +1,55 @@
+/* Below 500Px */
+/*  */
+@media (max-width: 31.25em) {
+  .output-box {
+    width: 26rem;
+  }
+
+  .number {
+    width: 6.5rem;
+    height: 6rem;
+  }
+  .number:hover {
+    background: #5b6a7d;
+    color: #fff;
+  }
+  .clear,
+  .equal {
+    width: 13rem;
+  }
+  .clear:hover {
+    background: linear-gradient(to right, #d4145a, #fbb03b);
+    color: #fff;
+  }
+
+  .equal:hover,
+  .plus:hover,
+  .minus:hover,
+  .multiplication:hover,
+  .division:hover,
+  .cross:hover,
+  .dot:hover {
+    background: #374353;
+    color: #fff;
+  }
+  .calculator {
+    justify-content: flex-start;
+    /* align-items: center; */
+  }
+}
+
+/* Below 414Px */
+/*  */
+@media (max-width: 25.87em) {
+  .output-box {
+    width: 20rem;
+  }
+  .number {
+    width: 5rem;
+    height: 5rem;
+  }
+  .clear,
+  .equal {
+    width: 10rem;
+  }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="WebCalculator makes your day today calculation easy. "
+    />
+
+    <!-- Include FavIcon -->
+    <link rel="icon" href="../images/favIcon.png" />
+
+    <title>Web Calculator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lobster&family=Rampart+One&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500&family=Titillium+Web:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/queries.css" />
+    <script defer src="../js/script.js"></script>
+  </head>
+  <body>
+    <section class="calculator">
+      <div class="container">
+        <div class="output-box">
+          <h1 class="operations"></h1>
+          <h2 class="result">0</h2>
+        </div>
+        <div class="input-box">
+          <button class="number clear">C</button>
+          <button class="number cross">
+            <!-- &larr; -->
+            <ion-icon name="backspace-outline" class="cross-icon"></ion-icon>
+          </button>
+          <button class="number division">/</button>
+          <button class="number seven">7</button>
+          <button class="number eight">8</button>
+          <button class="number nine">9</button>
+          <button class="number multiplication">*</button>
+          <button class="number four">4</button>
+          <button class="number five">5</button>
+          <button class="number six">6</button>
+          <button class="number minus">-</button>
+          <button class="number one">1</button>
+          <button class="number two">2</button>
+          <button class="number three">3</button>
+          <button class="number plus">+</button>
+          <button class="number dot">.</button>
+          <button class="number zero">0</button>
+          <button class="number equal">=</button>
+        </div>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
